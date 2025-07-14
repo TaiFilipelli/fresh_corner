@@ -8,7 +8,7 @@ const GameCard = ({metaData}: {metaData: GameReviewMeta}) => {
       )}
       <h2 class="text-2xl font-bold mb-1">{game.title}</h2>
       <p class="text-gray-600 mb-2">{game.date}</p>
-      <div class={ `flex items-center justify-center w-16 p-5 ${game.rate <= 4 ? 'bg-red-700' : game.rate <=7 ? 'bg-yellow-600' : 'bg-green-500'} rounded-full` }>
+      <div class={ `flex items-center justify-center w-16 p-5 ${game.rate <= 40 ? 'bg-red-700' : game.rate <=69 ? 'bg-yellow-600' : 'bg-green-500'} rounded-full` }>
         <p class="text-white font-bold text-2xl">{game.rate}</p>
       </div>
       <div class="flex flex-col items-center justify-center rounded-2xl bg-[--mid-color] text-[--obscur-color] px-2 my-3">

@@ -46,7 +46,7 @@ export default function ReviewPage({ data }: PageProps<Review>) {
         {data.image && <img src={data.image} alt={data.title} class="my-4" />}
         <h1 class="text-3xl font-bold mb-2">{data.title}</h1>
         <p class="text-gray-500">
-          {data.date} – Puntaje: {data.rate}/10
+          {data.date} – Puntaje: {data.rate}/100
         </p>
         <hr class="my-4" />
         <p class="whitespace-pre-wrap">{data.content}</p>
