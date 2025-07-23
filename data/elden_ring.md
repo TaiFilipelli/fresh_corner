@@ -6,5 +6,6 @@ date: "2022-02-24"
 rate: 94
 ---
 
+Elden Ring salió en un contexto fantástico: era una entrega durante muchos años muy esperada por los fans de los videojuegos de la fórmula Soulsborne. Y como para que no: FromSoftware venia de dejar la vara altísima con Sekiro: Shadows Die Twice, ganador del GOTY 2019. Pero lo hicieron. De nuevo marcaron la industria.
 
-Elden Ring es, en definitiva, un videojuego. 
+Empecemos por el principio. Elden Ring es un juego de rol de acción y fantasía oscura que supone una total y absoluta evolución de la formula Souls llevándolo a campos desconocidos: un mundo abierto.

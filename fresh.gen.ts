@@ -6,7 +6,7 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $review_slug_ from "./routes/review/[slug].tsx";
-import * as $tier_list_page from "./routes/tier_list/page.tsx";
+import * as $tier_list_page from "./routes/tier-list/page.tsx";
 
 import type { Manifest } from "$fresh/server.ts";
 
@@ -16,7 +16,7 @@ const manifest = {
     "./routes/_app.tsx": $_app,
     "./routes/index.tsx": $index,
     "./routes/review/[slug].tsx": $review_slug_,
-    "./routes/tier_list/page.tsx": $tier_list_page,
+    "./routes/tier-list/page.tsx": $tier_list_page,
   },
   islands: {},
   baseUrl: import.meta.url,
